@@ -1,0 +1,10 @@
+
+<view class="indexInput">
+    <input  maxlength="100" bindinput="getEmail" placeholder="邮箱地址" />
+</view>
+<view class="indexInput">
+    <input password  maxlength="30" bindinput="getPasswd" placeholder="密码" />
+</view>
+<view class="indexButton">
+    <button type="primary" bindtap="checkLogin" loading="{{loading}}"> 登录 </button>
+</view>
