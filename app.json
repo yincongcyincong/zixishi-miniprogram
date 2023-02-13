@@ -7,26 +7,26 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "加油鸭自习室",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
     "color": "@tabBarColor",
     "selectedColor": "@tabBarSelectedColor",
-    "borderStyle": "@tabBarBorderStyle",
+    "borderStyle": "black",
     "backgroundColor": "@tabBarBackgroundColor",
     "list": [
       {
         "pagePath": "pages/index/index",
         "iconPath": "@iconPathComponent",
         "selectedIconPath": "@selectedIconPathComponent",
-        "text": "组件"
+        "text": "首页"
       },
       {
         "pagePath": "pages/logs/logs",
-        "iconPath": "@iconPathAPI",
-        "selectedIconPath": "@selectedIconPathAPI",
-        "text": "接口"
+        "iconPath": "@iconUser",
+        "selectedIconPath": "@selectedIconUser",
+        "text": "个人中心"
       },
       {
         "pagePath": "pages/request/request",
